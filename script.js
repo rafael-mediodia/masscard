@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
     { src: 'card-kumamon.jpg', link: 'card-kumamon.html', tags: ['animal'] },
     { src: 'card-marimokkori.jpg', link: 'card-marimokkori.html', tags: ['animal'] },
     { src: 'card-melonkuma.jpg', link: 'card-melonkuma.html', tags: ['animal'] },
-    { src: 'card-mrclean.jpg', link: 'card-mrlcean.html', tags: ['object'] },
+    { src: 'card-mrclean.jpg', link: 'card-mrclcean.html', tags: ['object'] },
     { src: 'card-mrpeanut.jpg', link: 'card-mrpeanut.html', tags: ['object'] },
     { src: 'card-peteypcup.jpg', link: 'card-peteypcup.html', tags: ['object'] },
     { src: 'card-pilsburydoughboy.jpg', link: 'card-pilsburydoughboy.html', tags: ['object'] },
