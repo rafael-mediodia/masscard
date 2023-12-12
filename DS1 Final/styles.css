@@ -1,0 +1,216 @@
+/* Basic CSS resets and styles */
+body {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: rgb(0, 0, 0);
+  justify-content: space-around;
+  padding: 0px 0px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul li {
+  margin-right: 20px;
+}
+
+.navbar ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding-left: 50px; 
+  padding-right: 50px; 
+}
+
+/* Gallery styles */
+.gallery-container {
+  padding: 10px;
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 10px;
+  border-color: aliceblue;
+  overflow: hidden; 
+  background-color: rgb(255, 251, 35);
+  justify-content: center; /* Center the gallery horizontally */
+  align-items: center; /* Center the gallery vertically */
+}
+.filter-menu {
+  padding-top:5px;
+}
+.filter-buttons {
+  text-align: center;
+  margin-bottom: 20px;
+}
+a {
+  font-family: fakir-display-new, sans-serif;
+font-weight: 400;
+font-size: 36pt;
+font-style: normal;
+}
+p {
+  font-family: fakir-new, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+.filter-buttons button {
+  background-color: #060606;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin: 0 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button{
+  font-family: fakir-new, sans-serif;
+font-weight: 400;
+font-style: normal;
+transition: ease-in-out
+}
+.filter-buttons button.active {
+  background-color: rgb(196, 196, 53);
+  
+}
+
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center; /* Center images horizontally */
+}
+
+.image-gallery a {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.image-gallery img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  padding: 0;
+  transition: transform 0.3s ease-in-out;
+ 
+}
+.image-gallery img:hover {
+  transform: rotate(3deg);
+  
+}
+
+h1 {
+  text-align: center;
+  font-family: fakir-new, sans-serif;
+font-weight: 700;
+font-style: italic;
+}
+p {
+  text-align: left;
+}
+h2 {
+  font-family: fakir-new, sans-serif;
+font-weight: 700;
+font-style: italic;
+text-align: center;
+font-size: 120pt;
+padding-top: -600px;
+
+}
+
+.centered-text {
+  text-align: center;
+  padding-top: 2vw; /* Adjust padding as needed */
+  padding-left: 32vw;
+  padding-right: 32vw;
+}
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  transition: color 0.5s ease-in-out;
+}
+a:hover{
+ color: yellow;
+ 
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%; /* Adjust the width as needed */
+}
+.fixed-image {
+  position: fixed;
+  top: 20px; /* Adjust top position */
+  left: 20px; /* Adjust left position */
+  width: 400px; /* Initial width */
+  height: auto; /* Maintain aspect ratio */
+  transform-origin: top left;
+  transition: transform 0.3s ease; /* Smooth transition */
+  z-index: 999; /* Ensure it's above other content */
+}
+
+.sticky-image {
+  position: fixed; /* Fixed position */
+  top: 20px; /* Adjust distance from top */
+  right: 20px; /* Adjust distance from right */
+  width: 400px; /* Initial width */
+  height: auto; /* Maintain aspect ratio */
+  transform-origin: top left;
+  transition: transform 0.3s ease; /* Smooth transition */
+  z-index: 999; /* Ensure it's above other content */
+}
+
+
+.outer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Styles for the flex container containing the images */
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%; /* Adjust the width as needed */
+}
+
+.centered-image {
+  flex: 1;
+  max-width: 20%;
+  text-align: center;
+  justify-content: center;
+  padding-left: 40%;
+}
+
+.centered-image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+  border-radius: 5px;
+}
+
