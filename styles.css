@@ -173,8 +173,12 @@ a:hover{
   width: 400px; /* Initial width */
   height: auto; /* Maintain aspect ratio */
   transform-origin: top left;
-  transition: transform 0.3s ease; /* Smooth transition */
+  transition: transform 0.3s ease-in-out; /* Smooth transition */
   z-index: 999; /* Ensure it's above other content */
+}
+
+.fixed-image {
+  transform: rotate(270deg);
 }
 
 .sticky-image {
@@ -184,8 +188,12 @@ a:hover{
   width: 400px; /* Initial width */
   height: auto; /* Maintain aspect ratio */
   transform-origin: top left;
-  transition: transform 0.3s ease; /* Smooth transition */
+  transition: transform 0.3s ease-in-out; /* Smooth transition */
   z-index: 999; /* Ensure it's above other content */
+}
+
+.sticky-image {
+  transform: rotate(270deg);
 }
 
 
