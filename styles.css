@@ -175,7 +175,7 @@ a:hover{
   transform-origin: top left;
   transition: transform 0.3s ease-in-out; /* Smooth transition */
   z-index: 999; /* Ensure it's above other content */
-  pointer-events: none;
+  
 }
 
 .fixed-image:hover{
@@ -191,7 +191,7 @@ a:hover{
   transform-origin: top left;
   transition: transform 0.3s ease-in-out; /* Smooth transition */
   z-index: 999; /* Ensure it's above other content */
-  pointer-events: none;
+  
 }
 
 .sticky-image:hover {
