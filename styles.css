@@ -178,7 +178,7 @@ a:hover{
 }
 
 .fixed-image:hover{
-  transform: rotate(5deg);
+  transform: rotate(4deg);
 }
 
 .sticky-image {
@@ -193,7 +193,7 @@ a:hover{
 }
 
 .sticky-image:hover {
-  transform: rotate(5deg);
+  transform: rotate(4deg);
 }
 
 
@@ -230,6 +230,6 @@ a:hover{
 }
 
 .centered-image img:hover {
-  transform: scale(1.5);
+  transform: scale(1.4);
   
 }
