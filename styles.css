@@ -177,7 +177,7 @@ a:hover{
   z-index: 999; /* Ensure it's above other content */
 }
 
-.fixed-image {
+.fixed-image:hover{
   transform: rotate(270deg);
 }
 
@@ -192,7 +192,7 @@ a:hover{
   z-index: 999; /* Ensure it's above other content */
 }
 
-.sticky-image {
+.sticky-image:hover {
   transform: rotate(270deg);
 }
 
